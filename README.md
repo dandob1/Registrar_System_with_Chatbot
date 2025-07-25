@@ -1,10 +1,16 @@
 ## My Program
-**University_Registrar_System** is a full-stack academic management system simulating a university registrar. Enabling end-to-end functionality including applicant acceptance, course registration, grade assignment, and graduation processing. A dynamic chatbot is ready for assistance to answer any university related questions users may have.
+**University_Registrar_System** is a full-stack academic management system simulating a university registrar. Enabling end-to-end functionality including applicant acceptance, course registration, grade assignment, and graduation processing. A dynamic, role and permissions aware chatbot is ready for assistance to answer any university related questions users may have. Numerous AI systems were orchestrated to work in unison to answer any queries a user may have!
 
 ## Important
 Upon running the program make sure to press the reset database button on the login page before trying to login to ensure the database is updated upon opening the program.
 
-Please note the chatbot for this project was only intended to be used to answer simple questions. i.e. "What is my gpa?" "Who is my advisor?" "What are all of the classes offered?". I will be constructing an Agent esque chatbot for my next project.. the receipt analyzer.
+May require downloads including but not limited to:
+ - pip install openai
+ - pip install python-dotenv
+
+Reach out with any issues, the system has been tested and works on any device (dan.al.dobrin@gmail.com)
+
+Please view my Receipt_Analyzer project for more AI powered applications.
 
 ## Technologies Used
  - Backend: Python (Flask), SQLite
@@ -13,7 +19,7 @@ Please note the chatbot for this project was only intended to be used to answer 
  - Chatbot: Azure OpenAI integration
 
 ## Features:
-- Chatbot: A dynamic assistant who answers simple questions to clarify information necessary.
+- Chatbot: A dynamic, secure and role aware assistant who answers questions to clarify information necessary and foster progress towards graduation.
 - Applicants: Apply to the university, submit personal information, receive admission decisions.
 - Course Registration: Enroll in courses after acceptance.
 - Grade System: Faculty can assign grades; students can view transcripts.
@@ -46,11 +52,12 @@ Please note the chatbot for this project was only intended to be used to answer 
 ## How to use the chatbot
   - Simply sign in as any user and click the pop up button in the bottom right corner of the screen.
   - Speak to your new AI agent.
-      - If signed in as a user try asking: "What is my gpa?" or "Who is my advisor?" or "What classes have I taken?"
+      - If signed in as a user try asking: "Am I ready to graduate?" or "Who is my advisor?" or "What classes have I taken?"
       - If signed in as an advisor try asking: "Who are my advisees?" or "What are my advisees gpa's?" or "What classes do I teach this semester?"
-      - If signed in as a admin try asking: "Who am I?" or "What is my role?" or "What do I do?"
+      - If signed in as a admin try asking: "Are there any applicants to the university?" or "What is my role?"
       - etc.
       - Help: if the bot does not answer a question on the first pass try rephrasing the question or prompting it again.
+    - **Note: The chatbot has 2 user modes, a "restricted" mode specialized for students and a "free" mode for all faculty to use.**
 
 ## How to use the program for full application to graduation
   - Create a new user with the apply to university feature.
@@ -69,3 +76,4 @@ Please note the chatbot for this project was only intended to be used to answer 
   - Once all courses have been taken, form/thesis is approved, you can request graduation from the student homepage.
   - Process the graduation from the grad secretary
   - If all requirements have been met and student has successfully graduated, you can sign into their account using the same login and see their admin page
+- **Note: if at any time you dont know what the student needs to do to graduate, sign in as the student and ask the chatbot!**
