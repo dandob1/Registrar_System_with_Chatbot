@@ -12,6 +12,8 @@ Reach out with any issues, the system has been tested and works on any device (d
 
 Please view my Receipt_Analyzer project for more AI powered applications.
 
+Note: Code was all chunked into main.py for ease of upload.. chatbot code is at the very bottom.
+
 ## Technologies Used
  - Backend: Python (Flask), SQLite
  - Frontend: HTML, CSS, JavaScript
